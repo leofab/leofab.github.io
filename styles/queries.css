@@ -88,8 +88,8 @@
       margin-top: 3.2rem;
     }
   
-    .logos img {
-      height: 2.4rem;
+    .logos img, .logos-learning img {
+      height: 3.4rem;
     }
   
     .step-number {
@@ -255,8 +255,8 @@
       width: 80%;
     }
   
-    .logos img {
-      height: 1.2rem;
+    .logos img, .logos-learning img {
+      height: 2.6rem;
     }
   
     .step-img-box:nth-child(2) {
