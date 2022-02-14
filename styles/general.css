@@ -187,7 +187,7 @@
     color: #888;
   }
   
-  .logos {
+  .logos, .logos-learning {
     display: flex;
     justify-content: space-around;
   }
@@ -195,7 +195,12 @@
   .logos img {
     height: 4.2rem;
     filter: brightness(1);
-    opacity: 80%;
+    opacity: 100%;
+  }
+  .logos-learning img {
+    height: 4.2rem;
+    filter: brightness(1);
+    opacity: 75%;
   }
 
 /**************************/
