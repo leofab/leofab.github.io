@@ -1,18 +1,14 @@
 // Smooth scrolling animation
 
 const about = document.querySelector('#sobre');
-const aboutBtn = document.querySelector('.about');
-const aboutBtn2 = document.querySelector('.about2');
+const aboutBtns = document.querySelectorAll('.about');
 
-aboutBtn.addEventListener('click', (e) => {
-  e.preventDefault()
-  about.scrollIntoView({
-    behavior: "smooth"
+
+aboutBtns.forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    e.preventDefault();
+    about.scrollIntoView({
+      behavior: 'smooth'
+    })
   })
-})
-aboutBtn2.addEventListener('click', (e) => {
-  e.preventDefault()
-  about.scrollIntoView({
-    behavior: "smooth"
-  })
-})
+});
