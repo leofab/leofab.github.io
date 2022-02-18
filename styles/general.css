@@ -244,6 +244,14 @@
     align-items: center;
     justify-content: center;
   }
+
+  .step-img-box a img{
+    transition: transform 200ms ease-in-out 25ms;
+  }
+
+  .step-img-box a img:hover{
+    transform: scale(2.4);
+}
   
   .step-img-box::before,
   .step-img-box::after {
