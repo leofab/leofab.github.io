@@ -9,7 +9,8 @@ aboutBtns.forEach(btn => {
     e.preventDefault();
     about.scrollIntoView({
       behavior: 'smooth'
-    })
+    });
+    headerEl.classList.toggle("nav-open");
   })
 });
 
